@@ -1,7 +1,8 @@
 package am.azaryan.myfriendweb.model;
 
-import java.util.Date;
 import lombok.*;
+
+import java.util.Date;
 
 @Data
 @Builder
@@ -9,13 +10,13 @@ import lombok.*;
 @NoArgsConstructor
 public class Message {
 
-    private int id;
+  private int id;
 
-    private int senderId;
+  private int senderId;
 
-    private int receiverId;
+  private int receiverId;
 
-    private String message;
+  private String message;
 
-    private Date createdAt;
+  private Date createdAt;
 }
