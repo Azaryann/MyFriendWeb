@@ -1,11 +1,11 @@
 $(document).ready(function () {
-  setInterval(function () {
-    updateTable();
-  }, 1300);
-
-  setInterval(function () {
-    updateUsers();
-  }, 1000);
+  // setInterval(function () {
+  //   updateTable();
+  // }, 1300);
+  //
+  // setInterval(function () {
+  //   updateUsers();
+  // }, 1000);
 });
 
 function doLogin() {

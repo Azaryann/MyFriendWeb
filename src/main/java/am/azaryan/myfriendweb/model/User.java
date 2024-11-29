@@ -1,5 +1,7 @@
 package am.azaryan.myfriendweb.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 
 @Data
@@ -12,6 +14,8 @@ public class User {
   private String name;
   private String surname;
   private String email;
+  @JsonIgnore
   private String password;
+  @JsonProperty("image_url")
   private String imageUrl;
 }
